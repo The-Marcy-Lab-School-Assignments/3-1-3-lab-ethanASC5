@@ -30,9 +30,9 @@ export default async function app(appDiv) {
   // renderNewUserForm;
 
   // Fetch the books!
-  // const books =
+  const books = await getFirstThreeFantasyBooks()
   // render out the books
-  // renderBookList
+  renderBookList(bookListEl, books)
 
   // bookListEl.addEventListener('???', () => {})
 
