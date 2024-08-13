@@ -57,4 +57,19 @@ export const renderNewUserForm = (newUserFormEl) => {
 
 
 export const renderNewUser = (newUserEl, newUser) => {
+  // 1. Clear the existing content of the newUserEl element
+
+  // 2. Create a new heading element (h2) to display the username
+  
+  // 3. Create a new paragraph element (p) to display the user's "cool" status
+  
+  // 4. Create another paragraph element (p) to display the user's favorite programming language
+
+  // 5. Set the text content of the heading element to the username, and store the user's ID in a data attribute
+  
+  // 6. Set the text content of the coolStatusEl element based on whether the user is "cool" or not
+  
+  // 7. Set the text content of the favLanguageEl element to the user's favorite programming language
+
+  // 8. Append the headingEl, coolStatusEl, and favLanguageEl elements to the newUserEl element
 }
